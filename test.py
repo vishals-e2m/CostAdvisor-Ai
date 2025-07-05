@@ -1,9 +1,7 @@
 import boto3
 import datetime
 import os
-from openai import OpenAI
-from dotenv import load_dotenv
-load_dotenv()
+
 # Initialize OpenAI client (API key must be set in environment or config)
 client = OpenAI(api_key="<your-openai-api-key>")  # Replace with your OpenAI API key
 
